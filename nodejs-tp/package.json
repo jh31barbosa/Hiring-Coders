@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-tp",
+  "version": "1.0.0",
+  "description": "projeto de teste typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "usuario",
+    "criacao"
+  ],
+  "author": "Jose Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.42",
+    "query-string": "^7.1.1",
+    "typescript": "^4.7.3"
+  }
+}
