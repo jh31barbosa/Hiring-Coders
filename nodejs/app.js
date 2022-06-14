@@ -1,5 +1,5 @@
 //Incluindo uma biblioteca
-const http = require('http');
+/*const http = require('http');
 const queryString = require('query-string');
 const url = require('url');
 const fs = require('fs')
@@ -65,6 +65,15 @@ else if(urlparse.pathname == '/remover-usuario'){
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+*/
+const obj = { a: 1 } 
+
+obj.a += 3 
+
+console.log(obj.a) 
+
+
+
 
 
 //http://127.0.0.1:3000/criar-atualizar-usuario?nome=josebarbosa&idade=32&id=1
